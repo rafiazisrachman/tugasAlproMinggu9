@@ -27,7 +27,7 @@ print("StuffedCrust Cheese")
 print("StuffedCrust Sausage")
 print("Cheesy Bites")
 print("Crown Crust")
-CrustPizza = input("Silahkan pilih crust pizza: ")
+CrustPizza = input("Silahkan pilih crust pizza favorit anda: ")
 CrustPizza = CrustPizza.lower()
 
 if CrustPizza == "pan":
@@ -42,23 +42,23 @@ if CrustPizza == "pan":
     if sizePizza == "personal":
         hargaPizza += 0
         if cheese == "iya":
-            hargaPizza += 13636
+            hargaPizza += 13636 
         elif cheese == "tidak":
             hargaPizza += 0
         else:
             print("Baik, Tidak menggunakan keju")
     elif sizePizza == "regular":
-        hargaPizza += 57273
+        hargaPizza += 57273 
         if cheese == "iya":
-                hargaPizza += 16364
+                hargaPizza += 16364 
         elif cheese == "tidak":
                 hargaPizza += 0
         else:
             print("Baik, Tidak menggunakan keju")
     elif sizePizza == "large":
-        hargaPizza += 89091
+        hargaPizza += 89091 
         if cheese == "iya":
-            hargaPizza += 19091
+            hargaPizza += 19091 
         elif cheese == "tidak":
                 hargaPizza += 0
         else:
@@ -159,7 +159,7 @@ elif CrustPizza == "cheesy bites":
         elif cheese == "tidak":
             hargaPizza += 0
         else:
-            print("Bak, tidak menggunakan keju")
+            print("Baik, tidak menggunakan keju")
     elif sizePizza == "large":
         hargaPizza += 120909
         if cheese == "iya":
