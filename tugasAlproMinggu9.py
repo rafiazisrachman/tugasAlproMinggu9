@@ -104,3 +104,62 @@ elif CrustPizza == "stuffedcrust sausage":
     # Pelanggan memilih ukuran pizza
     print("Ukuran pizza:")
     print("personal")
+    print("regular")
+    print("large")
+    sizePizza = input("Silahkan pilih ukuran pizza anda: ")
+    #Apakah ingin menambah keju?
+    cheese = input("Ingin menambahkan keju? (iya/tidak): ")
+    if sizePizza == "personal":
+        hargaPizza += 9091
+        if cheese == "iya":
+            hargaPizza += 13636
+        elif cheese == "tidak":
+            hargaPizza += 0
+        else:
+            print("Baik, tidak menggunakan keju")
+    elif sizePizza == "regular":
+        hargaPizza += 73636
+        if cheese == "iya":
+            hargaPizza += 16364
+        elif cheese == "tidak":
+            hargaPizza += 0
+        else:
+            print("Baik, tidak menggunakan keju")
+    elif sizePizza == "large":
+        hargaPizza += 111818
+        if cheese == "iya":
+            hargaPizza += 19091
+        elif cheese == "tidak":
+            hargaPizza += 0
+        else:
+            print("Baik, tidak menggunakan keju")
+    else:
+        print("Maaf tidak tersedia ukuran pizza lain")
+elif CrustPizza == "cheesy bites":
+    # Pelanggan memilih ukuran pizza
+    print("Ukuran pizza:")
+    print("personal")
+    print("regular")
+    print("large")
+    sizePizza = input("Silahkan pilih ukuran pizza anda: ")
+    #Apakah ingin menambah keju?
+    cheese = input("Ingin menambahkan keju? (iya/tidak): ")
+    if sizePizza == "personal":
+        hargaPizza += 13636
+        if cheese == "iya":
+            hargaPizza += 13636
+        elif cheese == "tidak":
+            hargaPizza += 0
+        else:
+            print("Baik, tidak menggunakan keju")
+    elif sizePizza == "regular":
+        hargaPizza += 80000
+        if cheese == "iya":
+            hargaPizza += 16364
+        elif cheese == "tidak":
+            hargaPizza += 0
+        else:
+            print("Bak, tidak menggunakan keju")
+    elif sizePizza == "large":
+        hargaPizza += 120909
+        if cheese == "iya":
